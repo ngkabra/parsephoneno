@@ -1,0 +1,19 @@
+A simple function that takes a string representing an Indian phone number, and returns it in a canonical format '91dddddddddd'.
+
+Usage:
+        >>> from parsephoneno import canonical_number
+        >>> canonical_number('98220-12345')
+        919822012345
+        >>> canonical_number('98220 1234')
+        Traceback (most recent call last):
+        ...
+        NumberTooShortError: 982201234
+
+        >>> phone_number('98220 1234') # Does not throw an exception
+        >>>
+
+See docstrings for more examples
+
+
+        
+  
